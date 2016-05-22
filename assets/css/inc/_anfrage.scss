@@ -1,0 +1,12 @@
+$anfrage_background     : #aaa;
+$anfrage_color          : #eee;
+
+.anfrage {
+    background: $anfrage_background;
+    color: $anfrage_color;
+    display: block;
+    padding:20px 0px;
+    
+    .form-control { border-radius:0px; margin-bottom:10px; height:auto; }
+}
+

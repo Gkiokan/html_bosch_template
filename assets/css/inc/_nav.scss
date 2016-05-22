@@ -1,0 +1,20 @@
+
+.logo {
+    height:$logo_height;
+    width:$logo_height;
+    display:inline-block;
+    background:center center no-repeat #000;
+    background-size:contain;
+}
+.logo-black { background-image:url(../images/bosch_service_black.gif); }
+.logo-default { background-image:url(../images/bosch_service_default.gif); }
+.logo-svg { background-image:url(../images/bosch_service.svg); }
+
+.navbar {
+    height:$nav_height;
+}
+
+.navbar .nav li>a {
+    line-height:$nav_height; 
+    height:$nav_height;
+}

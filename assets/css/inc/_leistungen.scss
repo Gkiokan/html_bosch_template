@@ -1,0 +1,46 @@
+$leistung_background     : #eaeaea;
+$leistung_background_2   : #ddd;
+$leistung_transition     : all .3s;
+$leistung_box_shadow     : 0px 0px 5px #555;
+$leistung_scale_size     : 1.051;
+
+$leistung_border_color   : #aaa;
+$leistung_border         : 1px solid $leistung_border_color;
+
+.leistungen_1 {
+    background:$leistung_background;
+    
+     .leistung {
+         border:$leistung_border; padding:0px; margin-bottom:40px; min-height:350px; background:#fff;
+         transition:$leistung_transition;
+         &:hover { box-shadow:$leistung_box_shadow; cursor: pointer; transform:scale($leistung_scale_size); }
+         
+         .image { display:block; width:auto; height:140px; background-position:center center;  background-size:cover; }
+         .title { text-align:center; font-size:20px; }
+         .desc  { text-align:left; font-size:16px; }
+         .price { text-align:center; color: maroon; font-weight:bold; font-size:20px; }
+         
+         .title, .desc { padding:10px; }         
+     }
+
+}
+
+
+
+
+$leistung_image_width    : 30%;
+
+.leistungen_2 {
+    background: $leistung_background_2; 
+    
+     .leistung {
+            border:$leistung_border; padding:0px; margin-bottom:40px; height: auto; background:#fff;
+            position: relative;
+            transition:$leistung_transition;
+             &:hover { box-shadow:$leistung_box_shadow; cursor: pointer; }                  
+         
+             .image { width:$leistung_image_width; height:auto; position: absolute; top:0px; left:0px; bottom:0px; background-position:center center; background-size:cover;  }         
+             .content { position: relative; top:0px; left:0; padding-left:calc(#{$leistung_image_width} + 20px); margin:5px 0px;  }
+             .title { font-weight:bold; font-size:20px; }
+     }
+}

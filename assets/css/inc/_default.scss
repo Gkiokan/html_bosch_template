@@ -1,0 +1,26 @@
+
+/*
+    Full Image Class 
+*/
+.fullimage {
+    background:center center no-repeat;
+    background-size:cover;
+}
+
+
+/*
+    Space Holder 
+*/
+.nav_space { height:$nav_height; }
+
+
+/*
+    Image autosize
+*/
+.image_auto { width:100%; height:auto; display:block; margin-bottom:30px; }
+
+
+/*
+    Text Div Wrapper
+*/
+.text { display: block;  text-align: justify; margin-bottom:30px; }

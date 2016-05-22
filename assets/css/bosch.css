@@ -1,0 +1,193 @@
+/*
+    Full Image Class 
+*/
+/* line 5, D:/_svr/html_bosch_template/assets/css/inc/_default.scss */
+.fullimage {
+  background: center center no-repeat;
+  background-size: cover; }
+
+/*
+    Space Holder 
+*/
+/* line 14, D:/_svr/html_bosch_template/assets/css/inc/_default.scss */
+.nav_space {
+  height: 80px; }
+
+/*
+    Image autosize
+*/
+/* line 20, D:/_svr/html_bosch_template/assets/css/inc/_default.scss */
+.image_auto {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 30px; }
+
+/*
+    Text Div Wrapper
+*/
+/* line 26, D:/_svr/html_bosch_template/assets/css/inc/_default.scss */
+.text {
+  display: block;
+  text-align: justify;
+  margin-bottom: 30px; }
+
+/* line 2, D:/_svr/html_bosch_template/assets/css/inc/_nav.scss */
+.logo {
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  background: center center no-repeat #000;
+  background-size: contain; }
+
+/* line 9, D:/_svr/html_bosch_template/assets/css/inc/_nav.scss */
+.logo-black {
+  background-image: url(../images/bosch_service_black.gif); }
+
+/* line 10, D:/_svr/html_bosch_template/assets/css/inc/_nav.scss */
+.logo-default {
+  background-image: url(../images/bosch_service_default.gif); }
+
+/* line 11, D:/_svr/html_bosch_template/assets/css/inc/_nav.scss */
+.logo-svg {
+  background-image: url(../images/bosch_service.svg); }
+
+/* line 13, D:/_svr/html_bosch_template/assets/css/inc/_nav.scss */
+.navbar {
+  height: 80px; }
+
+/* line 17, D:/_svr/html_bosch_template/assets/css/inc/_nav.scss */
+.navbar .nav li > a {
+  line-height: 80px;
+  height: 80px; }
+
+/* line 1, D:/_svr/html_bosch_template/assets/css/inc/_header.scss */
+.header {
+  display: block;
+  height: 400px;
+  border: 1px solid lightblue; }
+
+/* line 1, D:/_svr/html_bosch_template/assets/css/inc/_footer.scss */
+footer {
+  background: #222;
+  color: #aaa;
+  padding: 80px 0px; }
+  /* line 7, D:/_svr/html_bosch_template/assets/css/inc/_footer.scss */
+  footer strong {
+    font-size: 20px;
+    font-weight: bold; }
+  /* line 10, D:/_svr/html_bosch_template/assets/css/inc/_footer.scss */
+  footer .maps {
+    background: #eee;
+    border: 1px solid maroon;
+    height: 400px;
+    width: auto; }
+
+/* line 1, D:/_svr/html_bosch_template/assets/css/inc/_images.scss */
+.image1 {
+  background-image: url(https://i.ytimg.com/vi/FrrMcVqJiHc/maxresdefault.jpg); }
+
+/* line 2, D:/_svr/html_bosch_template/assets/css/inc/_images.scss */
+.image2 {
+  background-image: url(http://help-dresden.com/wp-content/uploads/2014/01/Bosch-Car-Service-HELP.jpg); }
+
+/* line 3, D:/_svr/html_bosch_template/assets/css/inc/_images.scss */
+.image3 {
+  background-image: url(http://www.lindel-zeller.de/fileadmin/user_upload/Elektronik_482-304.jpg); }
+
+/* line 4, D:/_svr/html_bosch_template/assets/css/inc/_images.scss */
+.image4 {
+  background-image: url(http://www.lais-steffi-bosch.de/files/kfz-wartung-und-reparatur-4-lais-steffi-bosch-car-service-muellheim.jpg); }
+
+/* line 10, D:/_svr/html_bosch_template/assets/css/inc/_leistungen.scss */
+.leistungen_1 {
+  background: #eaeaea; }
+  /* line 13, D:/_svr/html_bosch_template/assets/css/inc/_leistungen.scss */
+  .leistungen_1 .leistung {
+    border: 1px solid #aaa;
+    padding: 0px;
+    margin-bottom: 40px;
+    min-height: 350px;
+    background: #fff;
+    transition: all 0.3s; }
+    /* line 16, D:/_svr/html_bosch_template/assets/css/inc/_leistungen.scss */
+    .leistungen_1 .leistung:hover {
+      box-shadow: 0px 0px 5px #555;
+      cursor: pointer;
+      transform: scale(1.051); }
+    /* line 18, D:/_svr/html_bosch_template/assets/css/inc/_leistungen.scss */
+    .leistungen_1 .leistung .image {
+      display: block;
+      width: auto;
+      height: 140px;
+      background-position: center center;
+      background-size: cover; }
+    /* line 19, D:/_svr/html_bosch_template/assets/css/inc/_leistungen.scss */
+    .leistungen_1 .leistung .title {
+      text-align: center;
+      font-size: 20px; }
+    /* line 20, D:/_svr/html_bosch_template/assets/css/inc/_leistungen.scss */
+    .leistungen_1 .leistung .desc {
+      text-align: left;
+      font-size: 16px; }
+    /* line 21, D:/_svr/html_bosch_template/assets/css/inc/_leistungen.scss */
+    .leistungen_1 .leistung .price {
+      text-align: center;
+      color: maroon;
+      font-weight: bold;
+      font-size: 20px; }
+    /* line 23, D:/_svr/html_bosch_template/assets/css/inc/_leistungen.scss */
+    .leistungen_1 .leistung .title, .leistungen_1 .leistung .desc {
+      padding: 10px; }
+
+/* line 33, D:/_svr/html_bosch_template/assets/css/inc/_leistungen.scss */
+.leistungen_2 {
+  background: #ddd; }
+  /* line 36, D:/_svr/html_bosch_template/assets/css/inc/_leistungen.scss */
+  .leistungen_2 .leistung {
+    border: 1px solid #aaa;
+    padding: 0px;
+    margin-bottom: 40px;
+    height: auto;
+    background: #fff;
+    position: relative;
+    transition: all 0.3s; }
+    /* line 40, D:/_svr/html_bosch_template/assets/css/inc/_leistungen.scss */
+    .leistungen_2 .leistung:hover {
+      box-shadow: 0px 0px 5px #555;
+      cursor: pointer; }
+    /* line 42, D:/_svr/html_bosch_template/assets/css/inc/_leistungen.scss */
+    .leistungen_2 .leistung .image {
+      width: 30%;
+      height: auto;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      bottom: 0px;
+      background-position: center center;
+      background-size: cover; }
+    /* line 43, D:/_svr/html_bosch_template/assets/css/inc/_leistungen.scss */
+    .leistungen_2 .leistung .content {
+      position: relative;
+      top: 0px;
+      left: 0;
+      padding-left: calc(30% + 20px);
+      margin: 5px 0px; }
+    /* line 44, D:/_svr/html_bosch_template/assets/css/inc/_leistungen.scss */
+    .leistungen_2 .leistung .title {
+      font-weight: bold;
+      font-size: 20px; }
+
+/* line 4, D:/_svr/html_bosch_template/assets/css/inc/_anfrage.scss */
+.anfrage {
+  background: #aaa;
+  color: #eee;
+  display: block;
+  padding: 20px 0px; }
+  /* line 10, D:/_svr/html_bosch_template/assets/css/inc/_anfrage.scss */
+  .anfrage .form-control {
+    border-radius: 0px;
+    margin-bottom: 10px;
+    height: auto; }
+
+/*# sourceMappingURL=bosch.css.map */
